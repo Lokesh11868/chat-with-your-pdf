@@ -1,0 +1,54 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 5 0 R 6 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+7 0 obj
+<< /Length 853 >>
+stream
+BT /F1 12 Tf 50 750 Td 14 TL (Computer Networking Guide: Architecture and Protocols.) Tj T* (Chapter 1: The OSI Reference Model.) Tj T* (The Open Systems Interconnection model defines seven architectural layers:) Tj T* (Layer 1 Physical Layer transmits raw bit streams over cables and radio frequencies.) Tj T* (Layer 2 Data Link Layer uses MAC hardware addresses to transfer frames across switches.) Tj T* (Layer 3 Network Layer is responsible for logical IP packet routing across routers.) Tj T* (Layer 4 Transport Layer provides host-to-host communication using TCP or UDP protocols.) Tj T* (Layer 5 Session Layer manages dialogues and connection sessions.) Tj T* (Layer 6 Presentation Layer handles syntax translation and SSL/TLS data encryption.) Tj T* (Layer 7 Application Layer supports end-user protocols including HTTP, DNS, and SMTP.) Tj T* ET
+endstream
+endobj
+8 0 obj
+<< /Length 545 >>
+stream
+BT /F1 12 Tf 50 750 Td 14 TL (Chapter 2: The Domain Name System \(DNS\).) Tj T* (DNS translates alphanumeric domain names into numeric IP addresses.) Tj T* (DNS servers primarily listen on UDP port 53 for low-overhead query resolution.) Tj T* (However, when DNS responses exceed 512 bytes, DNS automatically falls back to TCP port 53.) Tj T* (Recursive resolvers query root name servers, Top-Level Domain \(TLD\) servers, and authoritative servers.) Tj T* (DNS caching reduces query latency across local networks and operating systems.) Tj T* ET
+endstream
+endobj
+9 0 obj
+<< /Length 687 >>
+stream
+BT /F1 12 Tf 50 750 Td 14 TL (Chapter 3: Transmission Control Protocol \(TCP\) and UDP.) Tj T* (TCP provides reliable, ordered, and error-checked delivery of a stream of bytes.) Tj T* (To establish a connection, TCP performs a three-way handshake:) Tj T* (Step 1: The client sends a SYN \(synchronize\) packet to the server.) Tj T* (Step 2: The server responds with a SYN-ACK \(synchronize-acknowledge\) packet.) Tj T* (Step 3: The client replies with an ACK \(acknowledge\) packet.) Tj T* (TCP uses sequence numbers and sliding window flow control to prevent buffer overflows.) Tj T* (Conversely, UDP is a connectionless datagram protocol without handshakes or retransmission.) Tj T* ET
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000000197 00000 n 
+0000000323 00000 n 
+0000000449 00000 n 
+0000000575 00000 n 
+0000001479 00000 n 
+0000002075 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+2813
+%%EOF
